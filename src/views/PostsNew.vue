@@ -11,6 +11,7 @@
         Title:
         <input type="text" v-model="newPost.title" />
       </p>
+      <p>Body Character Count:{{ newPost?.body?.length }}</p>
       <p>
         Body:
         <input type="text" v-model="newPost.body" />

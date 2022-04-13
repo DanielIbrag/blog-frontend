@@ -25,7 +25,11 @@ export default {
       this.post = response.data;
     });
   },
-  methods: {},
+  methods: {
+    destroyPost() {
+      axios.delete(`/posts/$(this.post.id}`).then;
+    },
+  },
 };
 </script>
 
